@@ -10,11 +10,5 @@
   <name>Quiche4j/Core</name>
   <packaging>jar</packaging>
   <dependencies>
-    <dependency>
-      <groupId>${project.groupId}</groupId>
-      <artifactId>quiche4j-jni</artifactId>
-      <version>${project.version}</version>
-      <classifier>${os.detected.classifier}</classifier>
-    </dependency>
   </dependencies>
 </project>
